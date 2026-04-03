@@ -1,12 +1,46 @@
-# Crime Pattern Analysis using K-Means
+# 🚔 Crime Pattern Analysis using K-Means
 
-## How to Run
+## 📌 Overview
+Crime analysis is often done manually, making it difficult to detect hidden patterns and emerging hotspots.  
+This project presents a **Crime Cluster Analysis System** that uses a data-driven approach to analyze and visualize crime data.
 
-1. Install dependencies:
-pip install -r requirements.txt
+By applying the **K-Means clustering algorithm**, the system groups crimes based on:
+- 📍 Location (latitude & longitude)
+- 🕒 Time (hour of occurrence)
+- 🧾 Crime type
+- 🔁 Frequency
 
-2. Run app:
-streamlit run app.py
+This helps in identifying **crime hotspots** and understanding spatial–temporal patterns for better decision-making.
+
+---
+
+## 🎯 Objectives
+- Automate crime data analysis  
+- Identify hidden crime patterns and clusters  
+- Visualize crime hotspots effectively  
+- Support proactive crime prevention strategies  
+
+---
+
+## ⚙️ Features
+- 📊 **Data Preprocessing** (cleaning & scaling)
+- 🤖 **K-Means Clustering** for pattern detection
+- 🗺️ **Interactive Maps** using Folium
+- 📈 **Visualizations** (histograms, pie charts)
+- 🌐 **Web App Interface** using Streamlit
+- 📂 Upload custom crime datasets
+
+---
+
+## 🧠 Tech Stack
+- Python  
+- Scikit-learn (K-Means)  
+- Pandas & NumPy  
+- Matplotlib  
+- Folium  
+- Streamlit  
+----
+
 
 ## Dataset
 Upload CSV with:
